@@ -12,11 +12,6 @@ DISCOUNT_QUANITY = 5
 DISCOUNT_NUM = 0.1
 DISCOUNT_RATE = 1 - DISCOUNT_NUM 
 
-
-
-
-
-
 disp_plan(plans)
 chosen_plan = choice_plan(plans)
 chosen_peopel = choice_people(chosen_plan)
