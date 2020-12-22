@@ -7,14 +7,14 @@ def disp_plan(plans)
 end
 
 #プランを選択
-def choice_plan(plans)
+def choose_plan(plans)
   print "プランの番号を選択 >"
   while true
     chosen_plan_num = gets.to_i
     break if (PLAN_FIRST_NUM..PLAN_LAST_NUM).include?(chosen_plan_num)
     puts "#{PLAN_FIRST_NUM}〜#{PLAN_LAST_NUM}で選択して下さい。"
   end
-  chosen_plan = plans[chosen_plan_num - PLAN_FIRST_NUM]
+  plans[chosen_plan_num - PLAN_FIRST_NUM]
 end
 
 #人数を選択
