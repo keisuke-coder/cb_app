@@ -18,7 +18,7 @@ def choose_plan(plans)
 end
 
 #人数を選択
-def choice_people(chosen_plan)
+def choose_people(chosen_plan)
   puts "#{chosen_plan[:place]}旅行ですね。"
   puts "何名で予約されますか? >"
   while true

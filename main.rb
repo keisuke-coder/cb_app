@@ -14,5 +14,5 @@ DISCOUNT_RATE = 1 - DISCOUNT_NUM
 
 disp_plan(plans)
 chosen_plan = choose_plan(plans)
-chosen_peopel = choice_people(chosen_plan)
+chosen_peopel = choose_people(chosen_plan)
 calculation(chosen_plan, chosen_peopel)
